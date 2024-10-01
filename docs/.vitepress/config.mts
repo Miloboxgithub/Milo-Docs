@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { set_sidebar } from "./utils/auto_sidebar.js";	// 改成自己的路径
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/Milo-Docs/",
   head: [["link", { rel: "icon", href: "../5.png" }]],
   title: "Milo的文档集站",
   description: "Milo docs ts",

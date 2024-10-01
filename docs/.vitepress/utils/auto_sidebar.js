@@ -2,7 +2,7 @@ import path from "node:path";
 import fs from "node:fs";
 
 // 文件根目录
-const DIR_PATH = 'C:/Users/86158/Desktop/文档网站'
+const DIR_PATH = 'C:/Users/86158/Desktop/wendang/docs'
 // 白名单,过滤不是文章的文件和文件夹
 //console.log(DIR_PATH,'shajshfjkladsfhjklds');
 const WHITE_LIST = [
